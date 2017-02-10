@@ -26,8 +26,8 @@ EXPORT
 		Access_Type = RW;
 		Squash = No_Root_Squash;
 
-		#Transports = TCP;
-		#Protocols = NFS4;
+		Transports = TCP;
+		Protocols = NFS4;
 
 		SecType = "sys";
 
