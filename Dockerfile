@@ -20,7 +20,7 @@ ADD start.sh /
 ADD ganesha.conf /etc/ganesha/ganesha.conf
 
 # NFS ports and portmapper
-EXPOSE 2049 38465-38467 662 111/udp 111
+EXPOSE 2049
 
 # Start Ganesha NFS daemon by default
 CMD ["/start.sh"]
